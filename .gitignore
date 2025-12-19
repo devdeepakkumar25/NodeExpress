@@ -58,3 +58,5 @@ db/
 
 complete-node-bootcamp-master/
 complete-node-bootcamp-master.zip/
+
+*.txt
