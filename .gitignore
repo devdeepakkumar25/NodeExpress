@@ -60,3 +60,13 @@ complete-node-bootcamp-master/
 complete-node-bootcamp-master.zip/
 
 *.txt
+logs/*.txt
+
+*.zip
+
+node_modules/
+*.txt
+*.zip
+.env
+dist/
+build/
