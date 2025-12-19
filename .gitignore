@@ -2,71 +2,49 @@
 # Node.js
 # ==========================
 
-# Node modules
+# Dependencies
 node_modules/
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# dotenv environment files
+# Environment files
 .env
-.env.*  # .env.local, .env.development, etc.
+.env.*
 
 # OS junk
 .DS_Store
 Thumbs.db
 
-# Build / Dist files
+# Build output
 dist/
 build/
 
-# Optional caches
+# Framework caches
 .cache/
 .next/
 .nuxt/
-vite.config.ts.timestamp*
-vite.config.js.timestamp*
+coverage/
+tmp/
+temp/
 
 # TypeScript
 *.tsbuildinfo
 
-# Coverage
-coverage/
-
-# Temporary files
-tmp/
-temp/
-
-# Local database dumps / backups
-dump/
-backups/
-
-# ==========================
-# MongoDB Related
-# ==========================
-
-# Ignore MongoDB data directory (if stored locally in project)
+# MongoDB local data
 data/
 mongodb/
 mongo-data/
 db/
 
+# Course / backup files
 complete-node-bootcamp-master/
-complete-node-bootcamp-master.zip/
-
-*.txt
-logs/*.txt
-
 *.zip
 
-node_modules/
+# Text files (optional – remove if you want txt files tracked)
 *.txt
-*.zip
-.env
-dist/
-build/
